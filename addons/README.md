@@ -4,8 +4,8 @@ Each add-on lives in its own repository and is linked here as a git submodule, p
 
 | Add-on | Repository | Install |
 |---|---|---|
-| Ink | [ntfifwyb/ink](https://github.com/ntfifwyb/ink) | Download `ink.ankiaddon` from its [releases](https://github.com/ntfifwyb/ink/releases) |
-| Psittacus | [ntfifwyb/psittacus](https://github.com/ntfifwyb/psittacus) | Download `psittacus-<version>-windows.ankiaddon` from its [releases](https://github.com/ntfifwyb/psittacus/releases) |
+| Ink | [prsnlanki/ink](https://github.com/prsnlanki/ink) | Download `ink.ankiaddon` from its [releases](https://github.com/prsnlanki/ink/releases) |
+| Psittacus | [prsnlanki/psittacus](https://github.com/prsnlanki/psittacus) | Download `psittacus-<version>-windows.ankiaddon` from its [releases](https://github.com/prsnlanki/psittacus/releases) |
 
 **Update the pinned version:**
 
