@@ -1,6 +1,6 @@
 [submodule "addons/ink"]
 	path = addons/ink
-	url = https://github.com/ntfifwyb/ink
+	url = https://github.com/prsnlanki/ink
 [submodule "addons/psittacus"]
 	path = addons/psittacus
-	url = https://github.com/ntfifwyb/psittacus
+	url = https://github.com/prsnlanki/psittacus

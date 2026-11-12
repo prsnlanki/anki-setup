@@ -19,7 +19,7 @@ A snapshot of my Anki installation (profile "User 1"). Only the latest snapshot 
 
 | Add-on | Version | Source | Config |
 |---|---|---|---|
-| [Ink](https://github.com/ntfifwyb/ink) | 0.8.0 | My own ([`../addons/ink`](../addons/ink)), installed from its [releases](https://github.com/ntfifwyb/ink/releases) | `addons/ink/config.json` |
+| [Ink](https://github.com/prsnlanki/ink) | 0.8.0 | My own ([`../addons/ink`](../addons/ink)), installed from its [releases](https://github.com/prsnlanki/ink/releases) | `addons/ink/config.json` |
 
 Not included: `prefs21.db` (contains the AnkiWeb sync login), logs, and media files that no card uses.
 

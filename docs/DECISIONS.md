@@ -97,3 +97,11 @@
 **Why:** Esperanto's verb + preposition pairs are mostly regular and Verboj already names them; studying them twice doubles the reviews. Adjective and noun pairs (*riĉa je*, *rajto je*) are where speakers of other languages go wrong. A new note type would only rename the same fields. Zamenhof's wording is the reference, so a misremembered proverb would teach the wrong form.
 
 **Also:** the 46 clips left unused when Vortprovizo's verbs moved to Verboj (2.0.0) are deleted, as the owner asked; the `.apkg` never contained them.
+
+## 2026-11-12: One repository per deck, in the prsnlanki organization
+
+**Question:** the decks shared one repository, one releases page and prefixed tags (`german-2.0.0`). Keep them together, or split them?
+
+**Choice:** the owner asked to split them. Each deck is its own repository under the GitHub organization `prsnlanki`, named in its own language: [deutsch](https://github.com/prsnlanki/deutsch), [english](https://github.com/prsnlanki/english), [espanol](https://github.com/prsnlanki/espanol) and [esperanto](https://github.com/prsnlanki/esperanto). Each keeps its history (`git filter-repo` from `decks/<deck>/`), GUIDs, CHANGELOG and releases, retagged `vx.y.z` and moved off this repository; `scripts/publish-deck.sh` became each deck's `scripts/publish.sh`. anki-setup itself, Ink and Psittacus moved from `ntfifwyb` to `prsnlanki` too. This repository keeps the guide, the backup and the add-on submodules.
+
+**Why:** a deck's releases, tags and history are now its own, and `releases/latest` works per deck again (the 2026-10-23 entry's reason for per-deck tags no longer applies).
